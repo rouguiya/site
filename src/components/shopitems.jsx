@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 import ReactStars from "react-rating-stars-component";
 import { PRODUCTS } from './products';
 import { PRODUCTS1 } from './products';
-import { ShopContext } from './shopcontext'
+import { ShopContext } from './shopcontext';
 import Prod from './prod';
 
 

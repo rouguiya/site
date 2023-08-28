@@ -1,10 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import Moreproduct from './moreproduct';
-import pr5 from '../assets/image/products/A1.jpg';
-import pr6 from '../assets/image/products/A2.jpg';
-import pr7 from '../assets/image/products/A3.jpg';
-import pr8 from '../assets/image/products/A6.jpg';
+import pr5 from '../assets/image/products/A1.jpeg';
+import pr6 from '../assets/image/products/A2.jpeg';
+import pr7 from '../assets/image/products/A3.jpeg';
+import pr8 from '../assets/image/products/A6.jpeg';
 import Newsletter from './newsletter';
 
 

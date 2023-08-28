@@ -1,10 +1,10 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable no-unused-vars */
-import React from 'react'
-import { Link } from 'react-router-dom'
-import ReactStars from "react-rating-stars-components";
-import { PRODUCTS } from './products'
-import { PRODUCTS } from './products';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import ReactStars from "react-rating-stars-component";
+import { PRODUCTS,PRODUCTS1 } from './products';
+
 
 const featuredproducts = () => {
   return <>

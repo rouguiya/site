@@ -3,7 +3,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ReactStars from "react-rating-stars-component";
-import {products} from './products';
+import { PRODUCTS, PRODUCTS1 } from './products';
 
 const moreproduct = (props) => {
   return <>

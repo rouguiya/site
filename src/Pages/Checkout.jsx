@@ -1,8 +1,8 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 /* eslint-disable no-unused-vars */
-import React, { useContext} from 'react'
+import React, { useContext} from 'react';
 import { Link } from 'react-router-dom';
-import pay from '../assets/images/pay/pay.png';
+import pay from '../assets/image/pay/pay.png';
 import { ShopContext } from '../components/shopcontext';
 
 

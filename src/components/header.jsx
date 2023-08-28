@@ -1,6 +1,4 @@
-/* eslint-disable no-undef */
-/* eslint-disable react-hooks/rules-of-hooks */
-/* eslint-disable no-unused-vars */
+
 import React, { useContext, useState } from 'react';
 import { ShopContext } from './shopcontext';
 import { CiMail } from 'react-icons/ci';
@@ -11,10 +9,10 @@ import { CgShoppingCart, CgProductHunt } from 'react-icons/cg';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 import { NavLink , useLocation} from 'react-router-dom';
-import compare from "../assets/images/compare.svg";
-import wishlist from "../assets/images/wishlist.svg";
-import user from "../assets/images/user.svg";
-import logo from '../assets/images/apneck.png';
+/*import compare from "../assets/image/compare.svg";
+import wishlist from "../assets/image/wishlist.svg";
+import user from "../assets/image/user.svg";
+import logo from '../assets/image/apneck.png';*/
 
 
 
@@ -49,7 +47,7 @@ const header = () => {
             <p>Save Upto 100%</p>
           </div>
           <div className="col-md-2 m-auto">
-          <a href="tel:+254708118414">Call us</a>
+          <a href="tel:+221784736669">Call us</a>
           </div>
           <div className="col-md-2 m-auto">
             <Link className='links fs-4'><CiMail /></Link>
@@ -72,7 +70,7 @@ const header = () => {
         </button>
 
         <Link to='/'>
-          <img src={logo} alt="logo" className='img-fluid logo' />
+         
         </Link>
         
 
@@ -158,19 +156,17 @@ const header = () => {
         <div className="menu-bar__actions">
         <div className='mb-2'>
           <Link to="" className={location.pathname === '/' ? 'active' : 'not-active'} onClick={toggleMenu}>
-            <img src={compare} alt="compare" className='d-none' />
+          
             <span>New</span>
           </Link>
         </div>
         <div className='mb-2'>
           <Link to="" className={location.pathname === '/' ? 'active' : 'not-active'} onClick={toggleMenu}>
-            <img src={wishlist} alt="wishlist" className='d-none' />
-            <span>Wishlist</span>
           </Link>
         </div>
         <div className='mb-2'>
           <Link to="/login" className={location.pathname === '/login' ? 'active' : 'not-active'} onClick={toggleMenu}>
-            <img src={user} alt="user" className='d-none' />
+           
             <span>Account</span>
           </Link>
         </div>

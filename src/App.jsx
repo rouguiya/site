@@ -7,7 +7,7 @@ import Shop from './Pages/Shop';
 import Contact from './Pages/Contact';
 import Login from './Pages/Login';
 import Signup from './Pages/Signup';
-import Forgotpasword from './Pages/Sorgotpasword';
+import ForgotPasword from './Pages/ForgotPasword';
 import Cart from './Pages/Cart';
 import Checkout from './Pages/Checkout';
 import './App.css';
@@ -35,14 +35,14 @@ function App() {
     <Routes>
       <Route path='/' element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path='shop' element={<Shop />} />
-        <Route path='contact' element={<Contact />} />
-        <Route path='login' element={<Login />} />
-        <Route path='signup' element={<Signup />} />
-        <Route path='forgotpasword' element={<Forgotpasword />} />
-        <Route path='cart' element={<Cart />} />
-        <Route path='checkout' element={<Checkout />} />
-        <Route path='details' element={<Details />} />
+        <Route path='/shop' element={<Shop />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/signup' element={<Signup />} />
+        <Route path='/forgotpasword' element={<ForgotPasword />} />
+        <Route path='/cart' element={<Cart />} />
+        <Route path='/checkout' element={<Checkout />} />
+        <Route path='/details' element={<Details />} />
       </Route>
     </Routes>
     </BrowserRouter>

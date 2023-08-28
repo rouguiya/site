@@ -1,9 +1,9 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 /* eslint-disable no-unused-vars */
-import React, { useContext } from 'react'
+import React, { useContext } from 'react';
 import Shopitems from '../components/shopitems';
 import Newsletter from '../components/newsletter';
-import Hero from '../components/hero'
+import Hero from '../components/hero';
 
 const Shop = () => {
   return <>
